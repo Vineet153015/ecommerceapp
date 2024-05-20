@@ -1,4 +1,5 @@
 import 'package:ecommerceapp/colors.dart';
+import 'package:ecommerceapp/home/food_page_body.dart';
 import 'package:ecommerceapp/widgets/big_text.dart';
 import 'package:ecommerceapp/widgets/small_text.dart';
 import 'package:flutter/material.dart';
@@ -26,7 +27,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
               Column(
                 children: [
                   BigText(text: 'India',color: AppColors.mainColor,size: 25,),
-                  Row(
+                  const Row(
                     children: [
                       SmallText(text: 'Delhi-NCR',color: Colors.black54,),
                       Icon(Icons.arrow_drop_down_outlined)
@@ -49,6 +50,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
           ),
         ),
       ),
+        const FoodPageBody()
         ],
       )
     );
