@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 
 
 void main() {
+  // ye NotificationBar hatane ke liye code hai 
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
   runApp(const MyApp()); 
